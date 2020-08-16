@@ -1,0 +1,92 @@
+.about.s1 > div {
+  margin: 120px 0;
+}
+
+.about.s3 {
+  margin: 0 8.5%;
+  margin-bottom: 144px;
+}
+
+.desktop .about.s3 {
+  margin: 0 11.5%;
+}
+
+.about-s3-title {
+  color: #495567;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.about-works.desktop,
+.about-driving.desktop {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 64px;
+}
+
+.about-works.tablet,
+.about-driving.tablet,
+.about-works.mobile,
+.about-driving.mobile {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  margin-bottom: 64px;
+}
+
+.about-works h3,
+.about-driving h3 {
+  color: #495567;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.about-works.tablet h3,
+.about-driving.tablet h3,
+.about-works.mobile h3,
+.about-driving.mobile h3 {
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 18px;
+}
+
+.MuiButtonBase-root p {
+  color: #495567;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: "Space Mono", monospace;
+  padding: 28px 36px;
+}
+
+#panel1a-content .MuiAccordionDetails-root p {
+  color: #495567;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: normal;
+  padding: 0 36px;
+}
+
+.questions .MuiPaper-root {
+  background-color: #f2f5f9;
+  box-shadow: none;
+}
+.questions .MuiPaper-root:hover {
+  background-color: #fff4df;
+}
+
+.questions .MuiAccordion-root:before {
+  background-color: transparent;
+}
+
+.questions > div {
+  margin-bottom: 16px;
+}
+
+.MuiSvgIcon-root path {
+  fill: #fcb72b;
+}

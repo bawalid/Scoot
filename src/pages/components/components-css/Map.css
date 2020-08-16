@@ -1,0 +1,19 @@
+.google-map {
+  height: 542px;
+  margin: 120px 11.5%;
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  color: #fcb72b;
+}
+
+.pin-icon {
+  font-size: 4rem;
+}
+
+.pin-text {
+  font-size: 1.3em;
+}

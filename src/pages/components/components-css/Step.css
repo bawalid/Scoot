@@ -1,0 +1,45 @@
+.step {
+  width: 350px;
+}
+
+.step img {
+  margin-bottom: 41px;
+}
+
+.step h4 {
+  color: #495567;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 29px;
+}
+
+.step p {
+  color: #939caa;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* -----------------------Tablet Rules */
+.step.tablet {
+  width: 573px;
+  display: flex;
+}
+
+.step.tablet img {
+  margin-right: 79px;
+  margin-bottom: 0;
+  height: 100%;
+}
+/* -----------------------Mobile Rules */
+.step.mobile {
+  width: 311px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step.mobile img {
+  margin-right: 0;
+  margin-bottom: 30px;
+}

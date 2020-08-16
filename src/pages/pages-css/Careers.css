@@ -1,0 +1,26 @@
+.careers.s1 > div {
+  margin: 120px 0;
+}
+
+.careers.s3 {
+  margin: 0 11.5%;
+  margin-bottom: 160px;
+}
+
+.careers.s3 > div {
+  margin-bottom: 24px;
+}
+
+.careers.s3.mobile {
+  margin: 0 8.5%;
+  margin-bottom: 120px;
+}
+
+.careers.s3.mobile .banner-content {
+  padding: 0;
+}
+
+.careers.s3.mobile .banner-title {
+  font-size: 18px;
+  line-height: 24px;
+}

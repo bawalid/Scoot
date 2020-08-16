@@ -1,0 +1,35 @@
+.banner-content h2 {
+  font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+  line-height: 48px;
+  color: #495567;
+  margin-bottom: 15px;
+}
+
+.banner-content p {
+  font-size: calc(12px + ((100vw - 320px) / 680));
+  color: #939caa;
+  margin-bottom: 40px;
+}
+
+/* -----------------------Desktop Rules */
+.desktop.right .banner-content {
+  margin-right: 11.5%;
+  margin-left: 13vw;
+}
+
+.desktop.left .banner-content {
+  margin-left: 11.5%;
+  margin-right: 13vw;
+}
+
+/* -----------------------Tablet Rules */
+
+.tablet .banner-content {
+  padding: 0 97px;
+}
+
+/* -----------------------Mobile Rules */
+
+.mobile .banner-content {
+  padding: 0 32px;
+}

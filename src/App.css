@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  width: 100%;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 25px;
+}
+
+#root {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+.btn button {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 16px 40px;
+  cursor: pointer;
+  background-color: #fcb72b;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+}
+.btn button:hover {
+  background-color: transparent;
+  outline: 3px solid #fcb72b;
+  color: #fcb72b;
+}
+
+a {
+  text-decoration: none;
+  transition: color 350ms;
+}

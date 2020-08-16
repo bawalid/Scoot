@@ -1,0 +1,25 @@
+.CircleImgNbr {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
+
+.CircleImgNbr img {
+  border-radius: 50%;
+}
+
+.circleImg-number {
+  background-color: #fcb72b;
+  padding: 35px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-top: -48px;
+}
+
+.circleImg-number h4 {
+  color: #495567;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}

@@ -1,0 +1,95 @@
+/* -----------------------General Rules */
+.singup {
+  height: 300px;
+  background-color: #495567;
+  padding: 102px 11.5%;
+  position: relative;
+}
+
+.singup h2 {
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.store-app {
+  display: flex;
+  width: 359px;
+  height: fit-content;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.singup-semicircles {
+  position: absolute;
+  bottom: 0;
+  right: -163px;
+  z-index: 0;
+}
+
+/* -----------------------Desktop Rules */
+.singup.desktop {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.singup.desktop h2 {
+  width: 458px;
+}
+
+.desktop .store-app {
+  justify-self: center;
+  width: 359px;
+}
+
+.desktop .store-app img {
+  height: 56px;
+  object-fit: cover;
+}
+/* -----------------------Tablet Rules */
+.singup.tablet {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 52px 8.5%;
+  justify-items: center;
+}
+
+.singup.tablet h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tablet .store-app {
+  justify-self: center;
+  width: 256px;
+}
+
+.tablet .store-app img {
+  height: 40px;
+  object-fit: cover;
+}
+/* -----------------------Mobile Rules */
+.singup.mobile {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 86px 8.5%;
+  justify-items: center;
+}
+
+.singup.mobile h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.mobile .store-app {
+  justify-self: center;
+  width: 256px;
+}
+
+.mobile .store-app img {
+  height: 40px;
+  object-fit: cover;
+}

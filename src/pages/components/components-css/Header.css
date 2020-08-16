@@ -1,0 +1,155 @@
+/* patterns */
+
+.patterns-container > img {
+  height: fit-content;
+}
+
+.wCirclePattern,
+.rightArrowPattern {
+  justify-self: flex-end;
+}
+
+.rightArrowPattern {
+  margin-right: 102px;
+}
+
+.wCirclePattern {
+  align-self: flex-end;
+  margin-right: -48px;
+}
+
+.wCirclePatternSolo {
+  position: absolute;
+  right: -48px;
+  top: 68px;
+}
+
+/* -----------------------General Rules */
+.top-header.empty {
+  height: 200px;
+}
+
+.top-header {
+  position: relative;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-content: center;
+}
+
+.header-content {
+  z-index: 3;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: bold;
+}
+
+.header-content p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 37px;
+  color: #fff;
+}
+
+.patterns-container {
+  position: absolute;
+  top: 354px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.patterns-container.reduce {
+  margin-top: 65px;
+}
+
+/* -----------------------Desktop Rules */
+
+.header-container.desktop {
+  padding: 148px 11.5% 0;
+}
+
+.empty .header-container.desktop {
+  display: initial;
+  padding: 0;
+}
+
+.desktop .header-content {
+  width: 500px;
+  padding-left: 95px;
+}
+
+.desktop .title {
+  width: 573px;
+}
+
+.empty .desktop .title {
+  padding: 54px 11.5% 0;
+}
+
+/* -----------------------Tablet Rules */
+.header-container.tablet {
+  padding: 130px calc(8.5% + 62px) 217px;
+  text-align: center;
+}
+
+.empty .header-container.tablet {
+  display: initial;
+  padding: 0;
+}
+
+.patterns-container.tablet {
+  grid-template-columns: 1fr auto;
+  top: 473px;
+}
+
+.patterns-container.tablet .rightArrowPattern {
+  margin: 0;
+  justify-self: flex-start;
+  margin-left: -127px;
+}
+
+.empty .tablet .title {
+  padding: 54px 11.5% 0;
+  text-align: left;
+}
+
+/* -----------------------Mobile Rules */
+.header-container.mobile {
+  padding: 110px 8.5% 179px;
+  text-align: center;
+}
+.empty .header-container.mobile {
+  display: initial;
+  padding: 0;
+}
+
+.mobile .title {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.empty .mobile .title {
+  padding: 81px 11.5% 0;
+}
+
+.patterns-container.mobile {
+  grid-template-columns: 1fr;
+  top: 478px;
+}
+
+.patterns-container.mobile .rightArrowPattern {
+  margin: 0;
+  justify-self: flex-start;
+  margin-left: -312px;
+}

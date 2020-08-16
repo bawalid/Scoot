@@ -1,0 +1,73 @@
+.footer {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  width: 100%;
+  padding: 22px 11.5%;
+  background-color: #333a44;
+}
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+  width: 248px;
+  justify-content: space-between;
+}
+
+.footer-item {
+  font-size: 15px;
+  font-weight: bold;
+  color: #939caa;
+}
+
+.social-icons {
+  justify-self: flex-end;
+}
+
+.social-ul {
+  list-style: none;
+  display: flex;
+}
+
+.social-item {
+  margin-left: 32px;
+  cursor: pointer;
+}
+.social-item .MuiSvgIcon-root:hover {
+  fill: #fff;
+}
+
+/* Mobile Rules */
+.footer.mobile {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  height: 286px;
+}
+
+.footer.mobile > div {
+  margin: 0;
+  width: 140px;
+}
+.footer.mobile .navbar-scoot {
+  margin: 0;
+}
+
+.footer.mobile .footer-ul {
+  width: 100%;
+  height: 104px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer.mobile .social-icons {
+  justify-self: center;
+}
+
+.footer.mobile .social-item {
+  margin: 0;
+}
+
+.footer.mobile .social-ul {
+  justify-content: space-between;
+}

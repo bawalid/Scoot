@@ -1,0 +1,130 @@
+/* -----------------------General Rules */
+
+.banner {
+  display: grid;
+  width: 100%;
+}
+
+.banner-art {
+  position: relative;
+  display: flex;
+  grid-area: art;
+}
+
+.art-circle-image {
+  border-radius: 100%;
+}
+
+.banner-arrow1 {
+  position: absolute;
+  bottom: 0;
+}
+
+.banner-arrow2 {
+  position: absolute;
+  top: 0;
+  left: -41px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.banner-arrow3 {
+  position: absolute;
+  top: 85px;
+  right: -41px;
+}
+
+/* -----------------------Desktop Rules */
+
+.banner.desktop.right {
+  grid-template-areas: "content art";
+  align-items: center;
+}
+
+.banner.desktop.left {
+  grid-template-areas: "art content";
+  align-items: center;
+}
+
+.desktop.right .banner-art {
+  margin-right: -344px;
+}
+
+.desktop.left .banner-art {
+  margin-left: -344px;
+  flex-direction: row-reverse;
+}
+
+.desktop.right .art-circle-image {
+  margin-left: 124px;
+  margin-right: 64px;
+}
+
+.desktop.left .art-circle-image {
+  margin-right: 124px;
+  margin-left: 64px;
+}
+
+/* -----------------------Tablet Rules */
+
+.banner.tablet {
+  grid-template-areas:
+    "art"
+    "content";
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.tablet.right .banner-art {
+  margin-right: -345px;
+  margin-bottom: 50px;
+}
+
+.tablet.left .banner-art {
+  margin-left: -345px;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
+}
+
+.tablet.right .art-circle-image {
+  margin-left: 124px;
+  margin-right: 64px;
+}
+
+.tablet.left .art-circle-image {
+  margin-right: 124px;
+  margin-left: 64px;
+}
+
+.tablet .banner-arrow1 {
+  left: 76px;
+}
+
+/* -----------------------Mobile Rules */
+.banner.mobile {
+  grid-template-areas:
+    "art"
+    "content";
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.mobile .banner-art {
+  margin-bottom: 50px;
+}
+
+.mobile .art-circle-image {
+  width: 311px;
+  height: 311px;
+}
+
+.mobile .banner-arrow2 {
+  left: -490px;
+}
+
+.mobile .banner-arrow3 {
+  right: -540px;
+  top: 0;
+}

@@ -1,0 +1,61 @@
+/* -----------------------General Rules */
+
+section {
+  position: relative;
+}
+
+.back-line {
+  height: 15px;
+  background-color: #e5ecf4;
+  position: absolute;
+  left: 0;
+  top: 48px;
+  z-index: -1;
+}
+
+.three-circles {
+  margin-top: 160px;
+  margin-bottom: 197px;
+  padding: 0 11.5%;
+  display: flex;
+}
+.three-circles.desktop > div {
+  margin-right: 30px;
+}
+
+.s2 > div {
+  margin-bottom: 160px;
+}
+/* -----------------------Tablet Rules */
+
+.back-line.tablet {
+  background-color: #e5ecf4;
+  width: 15px;
+  position: absolute;
+  left: calc(8.5% + 71px);
+  top: -163px;
+  z-index: -1;
+}
+
+.three-circles.tablet {
+  flex-direction: column;
+  margin-right: 0;
+}
+.three-circles.tablet > div {
+  margin-bottom: 37px;
+}
+
+/* -----------------------Mobile Rules */
+
+.three-circles.mobile {
+  flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 37px;
+}
+
+.three-circles.mobile > div {
+  margin-right: 0;
+  margin-bottom: 45px;
+  justify-self: center;
+  width: 100%;
+}
